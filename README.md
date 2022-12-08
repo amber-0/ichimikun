@@ -8,16 +8,16 @@
 - プルダウンで選択肢を選べるようにした
 - 登録した内容をデータベースにぶち込める
 - 以下の通りデータベースを設計（設計というのか？）
-DB名　　：ichimi_db
-Table名 ：ichimi_data_table
-項目名　：
-1.id（int12,PrimaryKey,Autoincrement）
-2.name（varcher64）
-3.eval(int12)
-4.container(varcher64)
-5.seller(varcher64)
-6.quantity(varcher64)
-7.review(text)
+-DB名　　：ichimi_db
+-Table名 ：ichimi_data_table
+-項目名　：
+-1.id（int12,PrimaryKey,Autoincrement）
+-2.name（varcher64）
+-3.eval(int12)
+-4.container(varcher64)
+-5.seller(varcher64)
+-6.quantity(varcher64)
+-7.review(text)
 
 ## ③難しかった点・次回トライしたいこと(又は機能)
 - 今回はINSERTでデータベースにぶち込むだけなので、次回はSELECTでデータを取り出し、CSSを適用した状態で適宜画面に表示していきたい。
